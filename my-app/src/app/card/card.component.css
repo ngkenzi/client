@@ -1,0 +1,21 @@
+mat-card{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(202, 218, 252);
+    box-shadow: none;
+}
+
+mat-card-header {
+    padding: 20px;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    padding: 5px;
+}
+

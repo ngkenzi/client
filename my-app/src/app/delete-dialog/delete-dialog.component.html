@@ -1,0 +1,12 @@
+<div class="wrapper">
+<h1 mat-dialog-title>Delete task</h1>
+<div mat-dialog-content>
+  Are you sure?
+</div>
+</div>
+
+<div mat-dialog-actions class="action-btns" style="justify-content: space-between;">
+  <button class="close-btn" type="submit" [mat-dialog-close]>Close</button>
+  <button class="delete-btn" type="submit" style="background-color: red" (click)="onDelete(task)" [mat-dialog-close]>Delete</button>
+</div>
+

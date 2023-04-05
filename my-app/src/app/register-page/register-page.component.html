@@ -1,0 +1,30 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="form">
+    <div>
+      <h1 class="form-header">
+        Register
+      </h1>
+    </div>
+    <div class="btn-block">
+        <label for="username"> Username: </label>
+        <input type="text" formControlName="username"/>
+        <!-- //<span *ngIf="f['username'].getError('required')!=null class="errorMessage">Enter username</span> -->
+        <!-- <span class="errorMessage">Username should be at least 6 letters</span> -->
+ 
+
+        <label for="password"> Password: </label>
+        <input type="password" formControlName="password" id="password" required>
+        <!-- <span *ngIf="f['password].getError('required')!=null" class="errorMessage">Password is required</span> -->
+
+        <label for="password"> Confirm password: </label>
+        <input type="password" formControlName="confirmPassword" id="confirm_password">        
+    </div>
+
+      <button class="submit-button" type="submit">Register</button>
+
+    <div class="register-btn">
+        <button mat-button routerLink="" routerLinkActive="active" >
+           Have an existing account? Login here.
+        </button>
+    </div>
+
+</form>

@@ -1,0 +1,16 @@
+<div class="nav-bar">
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="add-icon" (click)="openDialog()">
+      <mat-icon>add</mat-icon>
+    </button>
+    <button (click)="onLogout()">LOGOUT</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div>
+
+  <div class="content">
+    <app-card></app-card>
+  </div>

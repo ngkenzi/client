@@ -1,0 +1,32 @@
+.form {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.submit-button {
+    justify-content: center;
+    align-content: center;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-btn {
+    margin-top: 4%;
+}
+
+.register-btn:hover {
+    opacity: 0.8;
+    font-weight: bold;
+}
+
